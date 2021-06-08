@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
     "jquery": "^3.3.1",
     "lite-server": "^2.6.1",
     "popper.js": "^1.12.9"
@@ -8,5 +10,8 @@
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.1.1"
   }
 }
