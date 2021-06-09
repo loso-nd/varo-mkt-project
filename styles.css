@@ -1,5 +1,6 @@
- /*  Media Queries - Desktop with Breakpoints  */
-@media only screen and (min-width: 480px) and (max-width: 1800px){
+ /*  Media Queries - Mobile x Desktop(620px) with Breakpoints   */
+
+@media only screen and (min-width: 480px) and (max-width: 1800px){ 
  
     .row-header {
         margin: 0px auto;
@@ -11,15 +12,6 @@
         padding: 20px 0px 20px 0px;
         border-bottom: 1px ridge;
         min-height: 100px;
-    }
-    
-    .footer {
-        background-color: #D1C4E9;
-        margin: 30px 20px 30px 20px;
-        padding: 20px 0px 20px 0px;
-        font-size: 14px;
-        font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        border-radius: 5px;
     }
     
     .jumbotron {
@@ -57,6 +49,16 @@
 
     img {
         width: 100%;
+        border-radius: 8px;
+    }
+
+    .footer {
+        background-color: #D1C4E9;
+        margin: 30px 20px 30px 20px;
+        padding: 20px 0px 20px 0px;
+        font-size: 14px;
+        font-family: Arial, sans-serif, Trebuchet, Impact;
+        border-radius: 5px;
     }
 
     /*  Media Queries - Mobile with breakpoints*/
@@ -77,15 +79,6 @@
          
         }
 
-        .footer {
-            background-color: #D1C4E9;
-            margin: 30px 20px 30px 20px;
-            padding: 20px 0px 20px 0px;
-            font-size: 16px;
-            font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            border-radius: 5px;
-        }
-
         .jumbotron {
             margin: 0px auto;
             padding:0px auto;
@@ -99,13 +92,26 @@
         }
 
         .copy-text {
-            font-size: 24px;
+            font-size: 28px;
             font-family: Arial, sans-serif, Trebuchet, Impact;
             padding: 10px 0px;
         }
 
         img {
             width: 100%;
+        }
+
+        .footer {
+            background-color: #D1C4E9;
+            margin: 30px 20px 30px 20px;
+            padding: 20px 0px 20px 0px;
+            font-size: 16px;
+            font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-radius: 5px;
+        }
+
+        .footer-copy{
+            padding-top: 10px 0px;
         }
 
     }
