@@ -1,1 +1,0 @@
-const fa = require("fontawesome");

@@ -1,7 +1,8 @@
-@media only screen and (min-width: 460px) and (max-width: 1800px){
+ /*  Media Queries - Desktop with Breakpoints  */
+@media only screen and (min-width: 480px) and (max-width: 1800px){
  
     .row-header {
-        margin: 40px 20px 40px 20px;
+        margin: 0px auto;
         padding:0px auto;
     }
     
@@ -14,17 +15,18 @@
     
     .footer {
         background-color: #D1C4E9;
-        margin: 40px 20px 40px 20px;
+        margin: 30px 20px 30px 20px;
         padding: 20px 0px 20px 0px;
         font-size: 14px;
         font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 5px;
     }
     
     .jumbotron {
-        padding: 70px 30px;
-        margin: 40px 20px 40px 20px;
+        margin: 0px auto;
+        padding:0px auto;
         background: #9575cd;
-        color: floralwhite
+        color: floralwhite;
     }
     
     .address {
@@ -42,13 +44,29 @@
     .copy-text {
         font-size: 24px;
         font-family: Arial, sans-serif, Trebuchet, Impact;
+        padding: 10px 0px;
     }
+
+    .btn{
+        color: #fff;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Arial, sans-serif, Trebuchet, Impact;
+        padding: 10px 0px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    /*  Media Queries - Mobile with breakpoints*/
      
     }
 
     @media only screen and (max-width: 480px) {
+
         .row-header {
-            margin: 30px 20px 30px 20px;
+            margin: 0px auto;
             padding:0px auto;
         }
         
@@ -57,23 +75,6 @@
             padding: 20px 0px 20px 0px;
             border-bottom: 1px ridge white;
          
-        }
-
-        .jumbotron {
-            padding: 50px 20px;
-            margin: 30px 20px 30px 20px;
-            background: #9575cd;
-            color: floralwhite
-        }
-
-        #headline {
-            font-size: 50px;
-            font-family: Arial Black, Impact, sans-serif;
-        }
-
-        .copy-text {
-            font-size: 24px;
-            font-family: Arial, sans-serif, Trebuchet, Impact;
         }
 
         .footer {
@@ -85,5 +86,26 @@
             border-radius: 5px;
         }
 
+        .jumbotron {
+            margin: 0px auto;
+            padding:0px auto;
+            background: #9575cd;
+            color: floralwhite;
+        }
+
+        #headline {
+            font-size: 50px;
+            font-family: Arial Black, Impact, sans-serif;
+        }
+
+        .copy-text {
+            font-size: 24px;
+            font-family: Arial, sans-serif, Trebuchet, Impact;
+            padding: 10px 0px;
+        }
+
+        img {
+            width: 100%;
+        }
 
     }
